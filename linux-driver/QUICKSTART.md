@@ -7,6 +7,7 @@
 cd linux-driver
 make build
 # or: bash build/build.sh all
+# bajoobalah
 ```
 
 ### Step 2: Test
