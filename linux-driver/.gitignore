@@ -1,0 +1,56 @@
+# Build artifacts
+*.o
+*.ko
+*.mod.c
+*.mod
+Module.symvers
+modules.order
+.*.cmd
+*.so
+*.so.*
+*.a
+*.la
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+
+# Build directories
+build/
+*.swp
+*.swo
+*~
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.pro.user
+
+# OS files
+.DS_Store
+Thumbs.db
+.directory
+
+# Temporary files
+*.tmp
+*.bak
+.*.swp
+core
+
+# Linux kernel specific
+.config
+.tmp_versions/
+tags
+TAGS
+cscope.*
+vmlinux
+
+# Distribution files
+*.tar.gz
+*.zip
+*.deb
+*.rpm
